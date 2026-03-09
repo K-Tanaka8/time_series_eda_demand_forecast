@@ -145,3 +145,4 @@ pip install pandas numpy matplotlib seaborn
 * 時系列分析の学習
 * データサイエンスのポートフォリオ
 
+
