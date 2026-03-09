@@ -1,0 +1,2 @@
+# time_series_eda_demand_forecast
+需要予測のための時系列EDA（探索的データ分析）
