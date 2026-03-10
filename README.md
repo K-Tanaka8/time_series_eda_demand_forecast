@@ -116,5 +116,5 @@ pip install pandas numpy matplotlib seaborn
 
 ## このNotebookの用途
 
-需要予測プロジェクトのEDAに利用できます。
+需要予測プロジェクトのEDAに利用できます。  
 売上データ分析に利用できます。
