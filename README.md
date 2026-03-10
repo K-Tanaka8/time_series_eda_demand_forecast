@@ -81,4 +81,46 @@ df["weekday"] = df.index.dayofweek
 ```
 
 EC、小売、飲食などのビジネスでは曜日効果がよく見られます。
-曜日に
+曜日による売上変動を確認できます。
+
+### 5 月別売上分析
+
+月ごとの平均売上を可視化します。
+
+```python
+df["month"] = df.index.month
+```
+
+月次の季節性を確認できます。
+年間トレンドを確認できます。
+
+### 6 ラグプロット（Lag Plot）
+
+ラグ特徴量を作成し、自己相関を確認します。
+
+```python
+df["lag1"] = df["sales"].shift(1)
+```
+
+売上の自己依存性を確認できます。
+時系列モデルの適用可能性を確認できます。
+
+## 使用ライブラリ
+
+pandas
+numpy
+matplotlib
+seaborn
+
+## インストール
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+## このNotebookの用途
+
+需要予測プロジェクトのEDAに利用できます。
+売上データ分析に利用できます。
+時系列分析の学習に利用できます。
+データサイエンスのポートフォリオとして利用できます。
